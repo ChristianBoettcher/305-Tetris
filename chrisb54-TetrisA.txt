@@ -1,0 +1,25 @@
+
+Assignment name: Assignment 6 
+TCSS 305: Programming Practicum, Autumn 2015
+
+Name: Christian Boettcher
+UWNetID: chrisb54
+Subversion Revision Number: 22
+
+
+Assignment Overview:
+in this assignment, it is the goal of the student to write a group of classes in order to give a visual representation of the game Tetris, the student is given classes that represent the back end logic of the game and so the student needs to make sure that the front end logic correctly mimics the back end logic.
+
+
+Technical Impression:
+In Tetris (part A) the student is to demonstrate what they have learned thus far in the quarter by implementing several methods and classes in java such as keyListeners (for moving and manipulating the pieces) Timer objects for causing each piece to fall. Furthermore, the student has to demonstrate and understanding of the Observer interface and the Observable class as an understanding of both are needed in order to display the back-end processes in the user interface. in this first part, the student needs to set up their GUI to be able to play one game of Tetris. This includes showing being able to draw the currently active piece when it moves as well as any "frozen" pieces from the Tetris board, display the next piece to come in the sequence, display the controls and finally the score. When the game finally ends, the game should pop up a dialog window indicating that the game is over. In addition to these requirements the program should not produce output or errors and should not be stuck in a loop. 
+As for me personally, this project has been highly challenging with its many parts to keep track of as well as having to learn (and relearn) concepts discussed in class just to get the program to run, let alone display the correct components. trying to deside wheater to draw rectangles from Pieces or Blocks as well as finding out how to appropreatly attach an observer to an observable have also been a sourse of confusion. As a result, I am now in a prime position to stretch my understanding of java if I am to succeed in part two of Tetris.  
+ 
+
+Unresolved problems in my submission:
+Really the list of what is going right is much smaller. First of all, I have not found a way to draw the pieces on either the board or in the "next piece" window. Secondly I have not spent the time to draw the Controls window or the score window. Ive made the attempts of gaining the corrdinates of each block on the board and draw squares in the appropriate locations (with the appropreate scale) but have been unsuccessful. I have plans for drawing each piece in the "Next Piece" window by calling the getNextPiece() method in board and drawing each uniquely with a switch statement (but this has not been implemented either). Controls and Score windows do not display anything but should be made with an overriden paintComponent's drawString method. finally the game does not display a dialog window when the game is over which should be launched from my Tick object (Timer) when the Board object's isGameOver() method returns true (currently this just stops the timer in Tick). Needless to say, there is much work needed to be done. 
+
+
+Questions:
+none at the moment but I know what to do if any come up.
+

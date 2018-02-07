@@ -1,0 +1,29 @@
+
+Assignment name: Assignment 6b
+TCSS 305: Programming Practicum, Autumn 2015
+
+Name: Christian Boettcher
+UWNetID: chrisb54
+Subversion Revision Number: 24
+
+
+Assignment Overview:
+In this assignment, it is the goal of the student to write a group of classes in order to give a visual representation of the game Tetris, the student is given classes that represent the back end logic of the game and so the student needs to make sure that the front end logic correctly mimics the back end logic. Furthermore, in part B, students implement features such as starting a new game, ending a game and pausing a game.
+
+
+Technical Impression:
+In the magnum opus for each TCSS 305 student, Tetris (Part B) gives the students the opportunity to show off what they have learned so far as programming undergraduates. From demonstrating understanding in the ways of Graphic User Interfaces to Object Oriented Programming implementation, this final project is supposed to challenge the students programming ability as well as give them the creative freedom to construct their very own Tetris game. With this being said, I am not entirely sure what was more challenging, having to analyses what was actually happening on the back end and how to use it and manipulate it to my advantage or having to become creative. It was not that being creative is a challenge but when there are expectations to produce something and the only guiding advice is that it is "up to the students". With all the potentially neat ideas and the little time to implement them all, the possibilities are daunting. In the end, I just barely made the requirements (or rather close approximations). 
+Another important lesson is to get help right away when I have a problem like I did in Tetris (Part A). The main reason for this program being hastily thrown together is my lack of understanding of Observers and Observables early on which cost me dearly. Instead of going in for help right away, I made certain assumptions about the back end code which were incorrect. Another tactic I implemented far too late was actually printing off the back end code and analyzing it with a pen.
+Fortunately, this project which at first I found to be oppressive turned out to be really neat. It has taught me lots of things about Java and that there is much more to learn.  
+ 
+ 
+
+Unresolved problems in my submission:
+There are some concerns in my Tick class which I am currently unsure how to solve. Also the grid option doesn't repaint right away, the new game menu item is not disabled (but doesn't work unless there is a Game Over), and end game doesn't exactly end in a "current" state. Instead, it breaks encapsulation on the back end filling up the List of Frozen Block with empty and then hardDrop the current piece. In this submission, I attempted to get as far as I could with out altering the back end code.
+
+One more thing I forgot to do was remove all the println() statements.
+
+
+Questions:
+I am having a little trouble with eclipse wanting to turn methods and variables static when I use or make some sort of extended reference from Listeners and I am not sure the best way to dodge this issue.
+
